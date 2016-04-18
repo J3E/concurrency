@@ -1,0 +1,23 @@
+= Java 3E Concurrency
+
+:author: Java 3E Concurrency lead by Stephan Knitelius
+:email: stephan@knitelius.com
+:revnumber: 0.1
+:revdate: April 18, 2016
+:revremark: Early Draft
+:version-label!:
+:sectanchors:
+:doctype: book
+:license: mit
+:source-highlighter: coderay
+:toc: left
+:toclevels: 3
+ifdef::backend-pdf[]
+:pagenums:
+endif::[]
+
+
+
+[preface]
+include::introduction.adoc[]
+

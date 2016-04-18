@@ -1,0 +1,16 @@
+:numbered!:
+["preface",sectnum="0"]
+
+== Introduction
+
+=== License
+
+include::license.adoc[]
+
+=== Foreword
+
+The Java 3E Concurrency specification, is a shadow specification for Concurrency Utilities for Java EE link:https://jcp.org/en/jsr/detail?id=236[JSR-236^]. The target is to integrated into Java Concurrency API for Java EE 8 or later version.
+
+Failing integration, the Java-3E specification will be implementable freely by any application server/extension libery vendor on top of standard Java EE 8.    
+
+:numbered:
