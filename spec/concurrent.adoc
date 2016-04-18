@@ -1,0 +1,11 @@
+== Concurrent
+
+Allows for concurrent tasks to be launched...
+
+[source, java]
+----
+@Concurrent
+public CompletableFuture asyncTask() {   
+  ...
+}
+----

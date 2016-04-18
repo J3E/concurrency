@@ -1,0 +1,3 @@
+== TimerScoped
+
+Provides a context bound to a timer...

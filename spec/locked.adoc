@@ -1,0 +1,19 @@
+== Locked
+
+@Locked provides concurrent access control.... 
+
+[source, java]
+----
+@Locked
+public void Foo {
+  @Locked(Locked.WRITE)
+  public void write(String bar) {
+    ...
+  }
+  
+  @Locked(Locked.READ)
+  public String read() {
+    ...
+  }
+}
+----
