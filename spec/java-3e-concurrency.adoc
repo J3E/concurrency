@@ -1,6 +1,6 @@
 = Java 3E Concurrency
 
-:author: Java 3E Concurrency lead by Stephan Knitelius
+:author: J3E Concurrency lead by Stephan Knitelius
 :email: stephan@knitelius.com
 :revnumber: 0.1
 :revdate: April 18, 2016
