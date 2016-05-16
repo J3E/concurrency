@@ -1,3 +1,23 @@
 == Throttled
 
-Limits number of concurrent instances...
+So far throttling has mostly been performed by EJB pooling.
+@Throttling allows the limitation of service calls per timeframe.
+
+[source, java]
+----
+@Throttling(permits=50, timeUnit=TimeUnit.SECONDS)
+public class Foo {
+  
+  @Throttled(tryTimeOut=2, timeUnit=TimeUnit.SECONDS)
+  public void throttledMethod() {
+    ...
+  }
+}
+----
+
+During a timeframe the permits are decreased on each invocation. When the permits reach 0 and the 
+requesting threads try timeout is reached (default=0) a ThrottlingException is thrown. 
+
+The permits are replenished to the maximum specified at the end of the given timeframe. 
+
+
